@@ -1,238 +1,166 @@
+<!DOCTYPE html>
 <html>
-	<head>
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-		<title>Gift</title>	
-		<style type="text/css">
-			body{
-				color: #1E90FF;
-			}
-			.space{
-				opacity: 0;
-			}
-			.flip-card {
-			  background-color: transparent;
-			  width: 300px;
-			  height: 300px;
-			  perspective: 1000px;
-			}
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-.flip-card-inner {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  text-align: center;
-  transition: transform 0.6s;
-  transform-style: preserve-3d;
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-}
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- index page css file -->
+    <link rel="stylesheet" type="text/css" href="EVA.css">
 
-.flip-card:hover .flip-card-inner {
-  transform: rotateY(180deg);
-}
-
-.flip-card-front, .flip-card-back {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-}
-
-.flip-card-front {
-  background-color: #bbb;
-  color: black;
-}
-
-.flip-card-back {
-  background-color: primary;
-  color: #1E90FF;
-  transform: rotateY(180deg);
-}
-.chat{
-	background-color:#1E90FF;
-	color: white;
-	padding-left: 2px;
-	padding-right: 2px;
-}
-.mychat{
-	float:left;
-}
-.yourchat{
-	float:right;
-}
-.chatcard{
-	border:15px solid white;
-}
-button {
-  background-color: #1E90FF; /* Green */
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
-}
-.button{
-  text-align: center;
-}
-		</style>
-	</head>
-	<body>
-		
-		<nav class="navbar navbar-expand-md bg-primary navbar-dark">
-  			<a class="navbar-brand" href="Hint5A.html">Spandana</a>
-  				<button class="navbar-toggler btn btn-light" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-    				<span class="navbar-toggler-icon"></span>
-  				</button>
-  			<div class="collapse navbar-collapse normal" id="collapsibleNavbar">
-    			<ul class="navbar-nav">
-     	 			<li class="nav-item active">
-        				<a class="nav-link" href="index.html">Hints page</a>
-      				</li>
-      				<li class="nav-item">
-        				<a class="nav-link" href="#">1</a>
-      				</li>
-      				<li class="nav-item">
-        				<a class="nav-link" href="#">2</a>
-      				</li>
-      				<li class="nav-item">
-        				<a class="nav-link" href="#">3</a>
-      				</li>
-      				<li class="nav-item">
-        				<a class="nav-link" href="#">4</a>
-      				</li>
-      				<li class="nav-item">
-        				<a class="nav-link" href="#">5</a>
-      				</li>
-      				<li class="nav-item">
-        				<a class="nav-link" href="#">6</a>
-      				</li>
-      				<li class="nav-item">
-        				<a class="nav-link" href="#">7</a>
-      				</li>
-      				<li class="nav-item">
-        				<a class="nav-link" href="#">8</a>
-      				</li>
-      				<li class="nav-item">
-        				<a class="nav-link" href="Hint2A.html">9</a>
-      				</li>
-      				<li class="nav-item">
-        				<a class="nav-link" href="Hint1A.html">10</a>
-      				</li>
-    			</ul>
-  			</div>  
-		</nav>
-		
-		<div class="container">
-			<div class="space">hm</div>
-			<h1><a href="Hint4A.html">Wlcm</a> to Treasure Hunt p!</h1>
-			<h2>Search using clues to claim <a href="Hint3A.html">Gift</a></h2>
-			<div class="space">H</div>
-      <div class="button"> <button onclick="this.innerHTML='Numerical answers are present in menu bar'">TIP</button> </div>
-      <div class="space">H</div>
-			<div class="flip-card">
-  				<div class="flip-card-inner">
-    				<div class="flip-card-front">
-    				  <img src="Hint1.png" alt="Avatar" style="width:300px;height:300px;">
-    				</div>
-    				<div class="flip-card-back">
-    					<div class="space">hm</div>
-    					<div class="space">H</div>
-            		    <div class="space">H</div>
-            		 	<h3>Number of letters in expansion of</h3>
-            			<h1>BUP</h1>
-    				</div>
-			    </div>
-			</div>
-      <div class="space">H</div>
-      <div class="space">H</div>
-      <div class="flip-card">
-          <div class="flip-card-inner">
-            <div class="flip-card-front">
-              <img src="Hint2.png" alt="Avatar" style="width:300px;height:300px;">
-            </div>
-            <div class="flip-card-back">
-              <div class="space">hm</div>
-              <div class="space">H</div>
-              <div class="space">H</div>
-              <h3>Number of letters in opposite of fullform of</h3>
-              <h1>AoN</h1>
-            </div>
-          </div>
-      </div>
-      <div class="space">H</div>
-      <div class="space">H</div>
-      <div class="flip-card">
-          <div class="flip-card-inner">
-            <div class="flip-card-front">
-              <img src="Hint3.png" alt="Avatar" style="width:300px;height:300px;">
-            </div>
-            <div class="flip-card-back">
-              <div class="space">H</div>
-              <div class="space">H</div>
-              <div class="space">H</div>
-              <h2>This time it's easy</h2>
-              <h3>Directly take the "gift"</h3>
-            </div>
-          </div>
-      </div>
-      <div class="space">H</div>
-      <div class="space">H</div>
-      <div class="flip-card">
-          <div class="flip-card-inner">
-            <div class="flip-card-front">
-              <img src="Hint4.png" alt="Avatar" style="width:300px;height:300px;">
-            </div>
-            <div class="flip-card-back chatcard">
-              <h5>If this is our chat</h5>
-              <div class="mychat"><span class="chat">Hmm</span></div>
-              <div class="space">H</div>
-              <div class="yourchat"><span class="chat">Haa</span></div>
-              <div class="space">H</div>
-              <div class="mychat"><span class="chat">Okay</span></div>
-              <div class="space">H</div>
-              <div class="yourchat"><span class="chat">Ok</span></div>
-              <div class="space">H</div>
-               <div class="mychat"><span class="chat">Ok</span></div>
-              <div class="space">H</div>
-              <div class="yourchat"><span class="chat">Ok</span></div>
-              <div class="space">H</div>
-              <div class="mychat"><span class="chat">K</span></div>
-              <div class="space">H</div>
-              <div class="yourchat"><span class="chat">Cute</span></div>
-              <div class="space">H</div>
-              <div class="mychat"><span class="chat">Tq</span></div>
-              <div class="space">H</div>
-              <h6>What will be your reply to my Tq</h6>
-            </div>
-          </div>
-      </div>
-      <div class="space">H</div>
-      <div class="space">H</div>
-      <div class="flip-card">
-          <div class="flip-card-inner">
-            <div class="flip-card-front">
-              <img src="Hint5.png" alt="Avatar" style="width:300px;height:300px;">
-            </div>
-            <div class="flip-card-back">
-              <div class="space">hm</div>
-              <h1>Name of the most beautiful girl I have ever seen</h1>
-               <div class="button"> <button onclick="this.innerHTML='Na pdu eppudu top lo untaadu'">CLUE</button> </div>
-            </div>
-          </div>
-      </div>
-      <div class="space">H</div>
-      <div class="space">H</div>
-      <h1>Hope you liked my gifts p</h1>
+    <title>EVA</title>
+  </head>
+<body>
+	<div class="container">
+		<div id="title_line">
+			<h1 class="heading">Earning Value Analysis</h1>
 		</div>
+		Actual cost of work performed: <input type="number"  id="AC"  class="form-control" >
+		Budgeted cost of work performed: <input type="number" id="BC"  class="form-control"  >
+		Budgeted cost of work scheduled: <input type="number" id="BS"  class="form-control" >
+		Budgeted cost of complete work: <input type="number"  id="BW"  class="form-control" placeholder="Optional">
+		<div></div>
+		<div class="d-flex justify-content-center">
+			<button type="button" class="btn btn-success space" onclick="myFunction()">Calculate EVA</button>
+		</div>
+	<table class="table table-bordered">
+    	<thead>
+    	<tr>
+        	<th>Validity of inputs</th>
+        	<th id="Validity">Not Entered</th>
+    	</tr>
+    	</thead>
+    	<tbody>
+    	<tr>
+    		<td>Schedule Status(variance)</td>
+    		<td id="SSV"></td>
+      	</tr>
+      	<tr>
+    		<td>Budget Status(variance)</td>
+    		<td id="BSV"></td>
+      	</tr>
+      	<tr>
+    		<td>Schedule Status(Peformance Index)</td>
+    		<td id="SSP"></td>
+      	</tr>
+      	<tr>
+    		<td>Budget Status(Peformance Index)</td>
+    		<td id="BSP"></td>
+      	</tr>
+    	<tr>
+    		<td>CPI</td>
+    		<td id="CPI"></td>
+      	</tr>
+      	<tr>
+    		<td>CV</td>
+    		<td id="CV"></td>
+      	</tr>
+      	<tr>
+    		<td>SPI</td>
+    		<td id="SPI"></td>
+      	</tr>
+      	<tr>
+    		<td>SV</td>
+    		<td id="SV"></td>
+      	</tr>
+    	</tbody>
+    </table>
 	<script>
+	function myFunction() {
+	  var AC = document.getElementById("AC").value;
+	  var BC = document.getElementById("BC").value;
+	  var BS = document.getElementById("BS").value;
+	  if(AC==""||BC==""||BS=="")
+	  {
+	  	document.getElementById("Validity").innerHTML = "Please enter all details";
+	  	document.getElementById("CPI").innerHTML = "";
+		document.getElementById("CV").innerHTML = "";
+	    document.getElementById("SPI").innerHTML = "";
+	    document.getElementById("SV").innerHTML = "";
+	    document.getElementById("SSV").innerHTML ="";
+	    document.getElementById("BSV").innerHTML ="";
+	    document.getElementById("SSP").innerHTML ="";
+	    document.getElementById("BSP").innerHTML ="";
+	  }
+	  else
+	  {
+	  	document.getElementById("Validity").innerHTML = "Valid";
+	  	document.getElementById("CPI").innerHTML = BC/AC;
+		document.getElementById("CV").innerHTML = BC-AC;
+	    document.getElementById("SPI").innerHTML = BC/BS;
+	    document.getElementById("SV").innerHTML = BC-BS;
+	    var SV=BC-BS;
+	    if(SV<0)
+	    {
+	    	document.getElementById("SSV").innerHTML ="Work is Behind Schedule";
+	    }
+	    else if(SV>0)
+	    {
+	    	document.getElementById("SSV").innerHTML ="Work is Ahead of Schedule";
+	    }
+	    else
+	    {
+	    	document.getElementById("SSV").innerHTML ="Work is on time";
+	    }
+	    var CV=BC-AC;
+	    if(CV<0.0)
+	    {
+	    	document.getElementById("BSV").innerHTML ="OverBudget";
+	    }
+	    else if(CV>0.0)
+	    {
+	    	document.getElementById("BSV").innerHTML ="Underbudget";
+	    }
+	    else
+	    {
+	    	document.getElementById("BSV").innerHTML ="Balanced Budget";
+	    }
+	    var CPI=BC/AC;
+	    if(AC==0)
+	    {
+	    	document.getElementById("Validity").innerHTML = "Work is not started";
+	    	document.getElementById("CPI").innerHTML = "Cannot be calculated";
+	    }
+	    else
+	    {
+	    	if(CPI<1.0)
+	    	{
+	    		document.getElementById("BSP").innerHTML ="OverBudget";
+	    	}
+	    	else if(CPI>1.0)
+	    	{
+	    		document.getElementById("BSP").innerHTML ="Underbudget";		
+	    	}
+	    	else
+	    	{
+	    		document.getElementById("BSP").innerHTML ="Balanced Budget";	
+	    	}
+	    }
+	    var SPI=BC/BS;
+	    if(BS==0)
+	    {
+	    	document.getElementById("Validity").innerHTML = "Work is not scheduled";
+	    	document.getElementById("SPI").innerHTML = "Cannot be calculated";
+	    }
+	    else
+	    {
+	    	if(SPI<0.0)
+	    	{
+	    		document.getElementById("SSP").innerHTML ="Work is Behind Schedule";
+	    	}
+	    	else if(SPI>0.0)
+	    	{
+	    		document.getElementById("SSP").innerHTML ="Work is Ahead of Schedule";
+	    	}
+	    	else
+	    	{
+	    		document.getElementById("SSP").innerHTML ="Work is on time";
+	    	}
+	    }
+	  }
+	}
 	</script>
-
-	</body>
+</body>
 </html>
